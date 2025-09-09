@@ -2,6 +2,8 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+.terraform.lock.hcl
+*.tfplan
 
 # Crash logs
 crash.log
@@ -16,3 +18,7 @@ crash.log
 # Python cache
 __pycache__/
 *.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
