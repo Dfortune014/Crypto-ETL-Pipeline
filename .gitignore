@@ -1,11 +1,14 @@
-# Terraform local state
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
-
-# Crash logs
 crash.log
 
-# Sensitive files
+# Local vars / secrets
 *.tfvars
 *.tfvars.json
+
+# Lambda build artifacts
+*.zip
+__pycache__/
+*.pyc
